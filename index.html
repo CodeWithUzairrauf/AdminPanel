@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="logo">
+                <i class="mdi mdi-view-dashboard"></i>
+                <h2>Dashboard</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><i class="mdi mdi-home"></i> Home</li>
+                    <li><i class="mdi mdi-account"></i> Profile</li>
+                    <li><i class="mdi mdi-message"></i> Messages</li>
+                    <li><i class="mdi mdi-clock-time-four"></i> History</li>
+                    <li><i class="mdi mdi-file-document"></i> Tasks</li>
+                    <li><i class="mdi mdi-account-group"></i> Communities</li>
+                </ul>
+                <ul class="bottom-nav">
+                    <li><i class="mdi mdi-cog"></i> Settings</li>
+                    <li><i class="mdi mdi-help-circle"></i> Support</li>
+                    <li><i class="mdi mdi-shield-check"></i> Privacy</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header>
+                <button class="menu-toggle" aria-label="Open sidebar"><i class="mdi mdi-menu"></i></button>
+                <div class="search-bar">
+                    <i class="mdi mdi-magnify"></i>
+                    <input type="search" placeholder="Search...">
+                </div>
+                <div class="user-info">
+                    <i class="mdi mdi-bell-ring"></i>
+                    <div class="user-profile">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Profile Picture">
+                        <span>Morgan Oakley</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Welcome Section -->
+            <div class="welcome-section">
+                <div class="welcome-message">
+                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Profile Picture">
+                    <div>
+                        <p>Hi there,</p>
+                        <h1>Morgan Oakley (@morgan)</h1>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="projects-section">
+                <h2>Your Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="project-actions">
+                            <i class="mdi mdi-star-plus"></i>
+                            <i class="mdi mdi-eye-plus"></i>
+                            <i class="mdi mdi-source-fork"></i>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Less Cool Project</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="project-actions">
+                            <i class="mdi mdi-star-plus"></i>
+                            <i class="mdi mdi-eye-plus"></i>
+                            <i class="mdi mdi-source-fork"></i>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Impossible App</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div class="project-actions">
+                            <i class="mdi mdi-star-plus"></i>
+                            <i class="mdi mdi-eye-plus"></i>
+                            <i class="mdi mdi-source-fork"></i>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Easy Peasy App</h3>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="project-actions">
+                            <i class="mdi mdi-star-plus"></i>
+                            <i class="mdi mdi-eye-plus"></i>
+                            <i class="mdi mdi-source-fork"></i>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Ad Blocker</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        <div class="project-actions">
+                            <i class="mdi mdi-star-plus"></i>
+                            <i class="mdi mdi-eye-plus"></i>
+                            <i class="mdi mdi-source-fork"></i>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Money Maker</h3>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
+                        <div class="project-actions">
+                            <i class="mdi mdi-star-plus"></i>
+                            <i class="mdi mdi-eye-plus"></i>
+                            <i class="mdi mdi-source-fork"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Announcements and Trending -->
+            <div class="side-content">
+                <div class="announcements">
+                    <h2>Announcements</h2>
+                    <div class="announcement-card">
+                        <div class="announcement">
+                            <h4>Site Maintenance</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="announcement">
+                            <h4>Community Share Day</h4>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        </div>
+                        <div class="announcement">
+                            <h4>Updated Privacy Policy</h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trending">
+                    <h2>Trending</h2>
+                    <div class="trending-card">
+                        <div class="trending-item">
+                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=John" alt="Profile Picture">
+                            <div>
+                                <p class="handle">@tegan</p>
+                                <p class="project-name">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah" alt="Profile Picture">
+                            <div>
+                                <p class="handle">@morgan</p>
+                                <p class="project-name">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Alex" alt="Profile Picture">
+                            <div>
+                                <p class="handle">@kendall</p>
+                                <p class="project-name">Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Mike" alt="Profile Picture">
+                            <div>
+                                <p class="handle">@alex</p>
+                                <p class="project-name">No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
